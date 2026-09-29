@@ -351,3 +351,18 @@ canvas {
     flex: 1 1 140px;
   }
 }
+
+.logo-superior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.logo-superior img {
+  display: block;
+  width: min(100%, 300px);
+  height: auto;
+  border-radius: 18px;
+  filter: drop-shadow(0 8px 12px rgba(18, 55, 42, 0.14));
+}
